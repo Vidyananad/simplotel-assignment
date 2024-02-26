@@ -181,12 +181,10 @@ button:hover {
 @media screen and (max-width: 600px) {
 
   nav {
+  display:flex;
   text-align: center;
   background: #eb3453;
-  display:flex;
   flex-direction:column;
-  justify-content: space-between;
-  text-align: justify;
 }
   
   .background-next {
