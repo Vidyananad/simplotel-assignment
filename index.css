@@ -38,6 +38,7 @@ nav a {
   display: inline-block;
   color: black;
   transition: opacity 1s;
+  margin:auto;
 }
 
 nav a.active {
