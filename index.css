@@ -23,10 +23,6 @@ body {
 nav {
   text-align: center;
   background: #eb3453;
-  display:flex;
-  flex-direction:row;
-  justify-content: space-between;
-  text-align: justify;
 }
 
 nav a {
@@ -38,6 +34,7 @@ nav a {
   color: black;
   transition: opacity 1s;
   margin-right:20px;
+  width:10%;
 }
 
 nav a.active {
