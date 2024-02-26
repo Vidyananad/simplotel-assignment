@@ -24,9 +24,9 @@ nav {
   text-align: center;
   background: #eb3453;
   display:flex;
-  flex-flow: row nowrap;
+  flex-direction:row;
   justify-content: space-between;
-
+  text-align: justify;
 }
 
 nav a {
@@ -183,6 +183,15 @@ button:hover {
 
 @media screen and (max-width: 600px) {
 
+  nav {
+  text-align: center;
+  background: #eb3453;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  text-align: justify;
+}
+  
   .background-next {
     display: flex;
     flex-direction: column;
