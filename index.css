@@ -26,7 +26,7 @@ nav {
   background: #eb3453;
   display:flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
 }
 
