@@ -199,3 +199,18 @@ button:hover {
     align-items: center;
   }
 }
+
+
+@media screen and (max-width: 600px) {
+
+.food-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgb(212, 212, 74), rgb(220, 102, 220));
+  background-attachment: fixed;
+}
+
+}
