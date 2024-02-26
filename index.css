@@ -192,10 +192,11 @@ button:hover {
   background: #eb3453;
   text-decoration: none;
   font-size: 20px; 
+  display:block;
   color: black;
   transition: opacity 1s;
-  margin-right:20px;
-  width:20%;
+  margin:auto;
+  width:50%;
 }
   
   .background-next {
